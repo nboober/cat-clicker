@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+}
+
+#list{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(170, 226, 238);
+}
+
+#name, #counter{
+  display: inline;
+}
+
+.clickCounter{
+  text-align: center;
+  font-family: helvetica;
+}
+
+#cats{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+p{
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  width: 90%;
+  height: auto;
+}
+
+a, a:visited{
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: black;
+}
